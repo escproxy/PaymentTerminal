@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frame
+    xmlns="http://www.swixml.org/2007/SwixmlTags"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.swixml.org/2007/SwixmlTags
+    					http://www.swixml.org/2007/swixml.xsd"
+    defaultCloseOperation="JFrame.EXIT_ON_CLOSE"
+    layout="GridLayout(1,2)"
+    background="#00ff00">
+    <header />
+    <label id="lbl" Font="Comic Sans MS-BOLD-14" Foreground="blue">
+		LABEL
+	</label>
+    <!--
+    <panel
+        layout="GridLayout(3,1)">
+        <terminal />
+	    <search />
+	    <receipt />
+    </panel>
+    -->
+</frame>
