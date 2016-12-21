@@ -47,7 +47,7 @@ task fatJar(type: Jar) {
     manifest {
         attributes(
                 // 'Class-Path': configurations.compile.collect { it.getName() }.join(' '),
-                'Main-Class': 'p2p.auction.P2PAuction',
+                'Main-Class': 'payment.terminal.PaymentTerminal',
                 'Implementation-Version': version
         )
     }
